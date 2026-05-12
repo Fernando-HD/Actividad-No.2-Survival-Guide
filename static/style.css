@@ -1,0 +1,4 @@
+body { background: #1a0a05; color: #d4c9a8; font-family: 'Courier New', monospace; }
+.card-sala { background: #2a1a0f; border: 1px solid #ff6a00; border-radius: 15px; padding: 20px; margin: 10px; transition: transform 0.3s; }
+.card-sala:hover { transform: translateY(-10px); }
+.btn-entrar { background: linear-gradient(135deg, #ff6a00, #ff4400); color: white; padding: 10px 20px; border-radius: 25px; text-decoration: none; }
