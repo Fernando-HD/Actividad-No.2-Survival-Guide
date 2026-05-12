@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<h2>{{ titulo }}</h2>{% for item in contenido %}<p>{{ item }}</p>{% endfor %}<form method='post'><input type='checkbox' name='compromiso' required><button type='submit'>Desbloquear</button></form>{% endblock %}
